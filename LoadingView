@@ -20,7 +20,7 @@ public class LoadingView {
 //        window.setWindowAnimations(R.style.share_animation);
             View view = View.inflate(context, R.layout.loading_animation, null);
             ImageView imageView = (ImageView) view.findViewById(R.id.img_loading);
-            Glide.with(context).asGif().load(R.drawable.loading).into(imageView);
+            Glide.with(context).asGif().load(R.drawable.yourownloadinggif).into(imageView);
             imageView.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
